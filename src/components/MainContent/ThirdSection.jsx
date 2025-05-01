@@ -69,7 +69,7 @@ const ThirdSection = () => {
             {/* card */}
 
             <ScrollFadeIn>
-            <div className="max-sm:hidden sm:hidden max-md:hidden md:flex lg:flex bg-white rounded-2xl shadow-xl flex flex-col gap-[1rem] cardHoverEffect rotateEffect py-4 px-4 md:mt-[18rem] w-[35vw] lg:mt-0 w-[350px]">
+            <div className="max-sm:hidden sm:hidden max-md:hidden md:flex lg:flex bg-white rounded-2xl shadow-xl flex flex-col gap-[1rem] cardHoverEffect rotateEffect py-4 px-4 md:mt-[18rem] w-[35vw] lg:mt-0 w-[349px]">
                <img src="https://cdn.flyingdress.photo/images/styles/original/D__00771.jpg" alt="" className="rounded-3xl lg:w-[20vmax] h-[20vmin]"/>
 
                 <div className="flex flex-col gap-[1rem]">

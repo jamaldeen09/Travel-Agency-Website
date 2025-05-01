@@ -3,6 +3,9 @@ import FirstSection from './FirstSection'
 import SecondSection from './SecondSection';
 import ThirdSection from './ThirdSection';
 import FourthSection from './FourthSection';
+import FifthSection from './FifthSection';
+import ConclusionSection from './ConclusionSection';
+import Footer from './Footer';
 
 const MainBody = () => {
 
@@ -12,6 +15,9 @@ const MainBody = () => {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <FifthSection />
+      <ConclusionSection />
+      <Footer />
     </>
   )
 }

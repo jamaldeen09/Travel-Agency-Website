@@ -85,6 +85,28 @@
         transition: transform 0.8s ease-in-out;
     }
 
+
+    .sendHoverEffect{
+        transform: scale(1);
+        transition: transform 1s ease-in-out;
+    }
+
+    .sendHoverEffect:hover{
+        transform:scale(1.1)
+    }
+
+
+    .inputHoverEffect{
+        transform:scale(1);
+        transition: transform 0.6s ease-in-out,filter 0.6s ease-in-out;
+    }
+
+    .inputHoverEffect:hover{
+        transform: scale(1.04);
+    }
+
+    
+
 }
 
 body{
