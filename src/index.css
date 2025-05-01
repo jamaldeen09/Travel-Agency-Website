@@ -28,12 +28,63 @@
 
     .playBtnHoverEffect{
         transform: scale(1);
-        transition: transform 0.6s ease-in-out;
+        transition: transform 0.4s ease-in-out;
     }
 
     .playBtnHoverEffect:hover{
         transform: scale(1.1);
     }
+
+    .cardHoverEffect{
+        transform:translateY(0deg);
+        transition: transform 1s ease-in-out;
+    }
+
+    .cardHoverEffect:hover{
+        transform: translateY(-20px);
+    }
+
+    .secondCardHoverEffect{
+        transform: scale(1);
+        transition: transform 1s ease-in-out;
+    }
+
+    .secondCardHoverEffect:hover{
+        transform:scale(1.02);
+    }
+
+    .rotateEffect{
+        transform: rotate(0deg);
+        transition: transform 0.6s ease-in-out;
+    }
+
+    .rotateEffect:hover{
+        transform: rotate(-3deg);
+    }
+
+
+    .iconHoverEffect{
+        transform: scale(1);
+        transition: transform 1s ease-in-out;
+    }
+
+    .iconHoverEffect:hover{
+        transform:scale(1.1);
+    }
+
+    .increasedZindex{
+        z-index: 999;
+    }
+
+    .decreasedZindex{
+        z-index:0;
+    }
+
+
+    .testimonialsHoverEffect{
+        transition: transform 0.8s ease-in-out;
+    }
+
 }
 
 body{

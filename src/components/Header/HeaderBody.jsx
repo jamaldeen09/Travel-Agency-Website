@@ -21,7 +21,7 @@ const HeaderBody = () => {
             <h4 style={style} className="text-red-500">BEST DESTINATIONS AROUND THE WORLD</h4>
            
 
-            <h1 className="font-bold max-sm:text-4xl sm:text-6xl md:text-5xl lg:text-7xl">Travel, enjoy <br /> and live a new <br /> and full life</h1>
+            <h1 className="font-bold max-sm:text-5xl sm:text-6xl md:text-5xl lg:text-7xl">Travel, enjoy <br /> and live a new <br /> and full life</h1>
             <p style={style2} >Built Wicket longer admire do barton vanity itself do in it. <br />Preferred to sportsmen it engrossed listening. Park gate <br /> sell they west hard for the.</p>
 
             <div className="flex gap-10">
