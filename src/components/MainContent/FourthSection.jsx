@@ -32,16 +32,18 @@ const FourthSection = () => {
                     <p>Lahore, Pakistan</p>
                 </div>
             </div>
-            <div style={{transform: "rotate(-2deg)"}} className="border-2 decreasedZindex flex justify-between flex-col gap-3 bg-white rounded-xl px-[3.66rem] py-4 max-sm:w-[70vw] sm:w-[63vw] md:h-[30vh] w-[59vw] lg:max-w-[30vw]">
+
+
+            <div style={{transform: "rotate(-2deg)"}} className="border-2 decreasedZindex flex justify-between flex-col gap-3 bg-white rounded-xl px-[3.66rem] py-4 max-sm:w-[70vw] sm:w-[63vw] md:h-[30vh] max-w-[54vw] lg:max-w-[30vw]">
 
                 <div>
 
                 </div>
 
-                <div>
+                <div className="">
                     <p style={{fontWeight: "400"}}>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Et esse quasi rem atque minus nesciunt voluptas."</p>
                 </div>
-                <div>
+                <div className="">
                     <h3 style={{fontWeight: "600"}} className="text-2xl">Chris Thomas</h3>
                     <p style={{fontWeight: "600"}} className="text-gray-500">CEO of Red Button</p>
                 </div>
